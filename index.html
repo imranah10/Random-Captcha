@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Captcha</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="generate()">
+    
+    <div class="box">
+      <p>
+        <s> A#gjF& </s>
+        <img src="refresh.jpg" alt="" onclick="generate()" />
+      </p>
+      <input type="text" id="captchatxt" /><br /><br /><b>message</b>
+      <button onclick="chechCaptcha()">save</button>
+    </div>
+    <h1>CAPTCHA GENERATOR</h1>
+    <script src="index.js">
+      
+    </script>
+  </body>
+</html>
